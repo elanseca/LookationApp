@@ -1,0 +1,66 @@
+.app_header{
+  background-color:#ffff99;
+}
+
+.app_title{
+  text-align:center;
+  color: black;
+  padding-top: 10px;
+}
+
+.text_title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 10px 1px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+ion-back-button{
+  position: absolute !important;
+  z-index: 5;
+}
+
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+display: none;
+}
+ion-content{
+  margin:0;
+  background-color: #ffff99;
+
+  --offset-bottom: auto!important;
+ --overflow: hidden;
+ overflow: auto;
+ &::-webkit-scrollbar {
+   display: none;
+
+ }
+}
+
+.abt-content{
+  //border: 1px #86592d solid;
+
+  margin: 10px 10px;
+  padding: 10px;
+ background-color: #ffff99 // #ffe6cc;
+}
+
+.txt{
+  text-align: justify;
+  color: black;
+font-size: 15px;
+}
+
+.logo{
+  display:block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+hr{
+  border-top: 1px #86592d solid;
+  width:70%;
+}

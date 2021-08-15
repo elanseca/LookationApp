@@ -1,0 +1,65 @@
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+display: none;
+}
+ion-content{
+  margin:0;
+  background-color: white;
+
+  --offset-bottom: auto!important;
+ --overflow: hidden;
+ overflow: auto;
+ &::-webkit-scrollbar {
+   display: none;
+
+ }
+}
+
+.cut{
+  border-top: 5px #ffC977 solid;
+  width: 100%;
+  margin: 0 0 10px 0;
+   padding: 0;
+
+}
+
+ion-grid, ul{
+   margin: 10px;
+   padding: 0;
+   background-color: white;
+   color: black;
+ }
+ion-col{
+   margin: 0;
+   padding: 0;
+   font-family: Roboto-Regular !important;
+   font-size: 14px;
+ }
+
+ .contact{
+  font-family: Roboto-Regular !important;
+  margin:0;
+  padding: 0;
+  color: black;
+  text-align: center;
+}
+
+.price{
+  text-align: right;
+}
+
+.bev{
+  text-align: center;
+  //background-color: red;
+  font-family: Roboto-Regular !important;
+  margin:0;
+}
+
+.bevv, .prc{
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+}
+
+.bevv1, .prc1{
+  border-right: 1px black solid;
+}

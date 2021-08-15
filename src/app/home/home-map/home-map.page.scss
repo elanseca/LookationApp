@@ -1,0 +1,70 @@
+.app_header{
+  background-color:#ccffcc;
+}
+
+ion-content{
+
+
+  --overflow: hidden;
+  --ion-background-color:#ccffcc;
+}
+
+.app_title{
+  text-align:center;
+  color: black;
+  background-color: #ccffcc;
+}
+
+.text_title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 10px 1px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+ion-back-button{
+  position: absolute !important;
+  z-index: 5;
+}
+
+.map-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0 15px;
+  --ion-background-color:red;
+  overflow-y: scroll;
+
+
+  &::-webkit-scrollbar {
+    display: none;
+
+  }
+}
+
+.map-frame {
+  border: 1px solid black;
+  background-color:#ccffcc;
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+#mapId {
+  height: 100%;
+}
+
+p{
+  font-family: Raleway-Light !important;
+  font-size: 25px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  text-align: center;
+  color: black;
+}

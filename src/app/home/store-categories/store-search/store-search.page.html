@@ -1,0 +1,19 @@
+<ion-header class="app_header ion-no-border">
+  <ion-toolbar color=#e6ccff>
+    <div class="app_title">
+      <ion-buttons slot="start">
+          <ion-back-button icon="arrow-back" defaultHref="/store-categories">
+          </ion-back-button>
+          <ion-title class="text_title">Search</ion-title>
+      </ion-buttons>
+  </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="abt-content">
+  <ion-searchbar type="text" debounce="500" (ionChange)="getItems($event)" [(ngModel)]="filterTerm"></ion-searchbar>
+  <ion-list *ngIf="isItemAvailable" class="listdesign" lines="none">
+      <div class="item-background-color" *ngFor="let item of data | filter:filterTerm" ><a href={{item.link}} class="linkdesign"><ion-item >{{ item.name }}</ion-item></a></div>
+  </ion-list>
+
+</ion-content>

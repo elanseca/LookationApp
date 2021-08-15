@@ -1,0 +1,116 @@
+.atmPhoto{
+  display:block;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.storePhoto{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.strTitle{
+  text-align: center;
+  color: black;
+  font-family: Raleway-Light !important;
+  font-size: 30px;
+  margin:0;
+  padding: 10px 0 0px 0;
+}
+
+.app_title{
+  text-align:center;
+  color: black;
+  padding-top: 10px;
+}
+
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+display: none;
+}
+ion-content{
+  margin:0;
+  background-color: white;
+
+  --offset-bottom: auto!important;
+ --overflow: hidden;
+ overflow: auto;
+ &::-webkit-scrollbar {
+   display: none;
+
+ }
+}
+
+.ti{
+  border-top: 1px black solid;
+  width: 30%;
+}
+
+.storeDetails{
+  color: black;
+  margin: 0 10px;
+}
+
+.contact{
+  font-family: Roboto-Regular !important;
+  margin:0 0 0 5px;
+  padding: 0;
+}
+
+.icon {
+  display: inline-block;
+  font-size: 20px;
+  color: #4d4d4d;
+  vertical-align: middle;
+  margin-right: 3px;
+  margin-bottom: 3px;
+ }
+
+ .text{
+   display: inline;
+   vertical-align: middle;
+   color: black;
+   font-size: 15px;
+   margin-bottom: 3px;
+ }
+
+ .con{
+  margin: 0 3px  10px 3px;
+  padding: 0 5px;
+ }
+
+ .cut{
+  border-top: 5px #ffC977 solid;
+  width: 95%
+ }
+
+ .tw{
+   display: block;
+   margin: 0 auto;
+   padding-right: 10px;
+   //background-color: red;
+ }
+
+ ion-grid{
+   text-align: center;
+   margin:0;
+   padding:0 0 10px 0;
+ }
+
+ .tw1{
+   margin:0;
+   font-size: 40px;
+   padding:0;
+   line-height: 0;
+ }
+
+
+ .tw2{
+   line-height: 0;
+  margin:0;
+  padding:0;
+  font-family: Roboto-Regular !important;
+}

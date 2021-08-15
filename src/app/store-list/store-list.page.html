@@ -1,0 +1,32 @@
+<ion-header class="app_header ion-no-border">
+  <ion-toolbar color=#ffcc99>
+    <div class="app_title">
+      <ion-buttons slot="start">
+          <ion-back-button icon="arrow-back" defaultHref="store-categories">
+          </ion-back-button>
+          <ion-title class="text_title">Store List</ion-title>
+      </ion-buttons>
+  </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="abt-content">
+    <!--<div class="logg">-->
+      <div class="logo">
+        <p class="logo1">RESTAURANT & DINING</p>
+      </div>
+    <!--</div>-->
+    <hr>
+
+    <div class="g">
+    <ion-grid>
+      <ion-row >
+        <ion-col size ="4.5" *ngFor = "let store of storeList" >
+          <a href="{{store.link}}"><img src={{store.image}} class="storePhoto"></a>
+            <p class="storeTitle">{{store.name}}</p>
+        </ion-col>
+
+      </ion-row>
+      </ion-grid>
+    </div>
+</ion-content>

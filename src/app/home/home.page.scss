@@ -1,0 +1,76 @@
+.app_header{
+  background-color:#e6ccff;
+}
+
+ion-content{
+  --ion-background-color: #ff9999;
+}
+
+.app_title{
+  text-align:center;
+  padding: 80px 10px 60px 10px;
+  color: black;
+
+}
+a:link, :visited, :hover, :active{text-decoration: none;}
+
+ion-button{
+  --box-shadow: none;
+  min-height: 50px;
+}
+
+/*blue*/
+.button_store{
+  margin: 0;
+  color:black;
+  --background: #b3e6ff;
+}
+
+/*green*/
+.button_map{
+  margin: 0;
+  color:black;
+  --background: #ccffcc;
+}
+
+/*yellow*/
+.button_about{
+  margin: 0;
+  color:black;
+  --background:#ffff99;
+}
+
+.logo{
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/*-----stripe colors-----*/
+.yellow{
+  min-height: 50px;
+  background-color: #ffff99;
+  margin: 0;
+}
+.orange{
+  min-height: 50px;
+  background-color: #ffcc99;
+  margin: 0;
+}
+
+.indigo{
+  min-height: 50px;
+  background-color: #b3ccff;
+  margin: 0;
+}
+/*----------------defaults----------------*/
+.container {
+  text-align: center;
+  background-color: pink;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top:0;
+}
+
+

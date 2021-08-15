@@ -1,0 +1,36 @@
+<ion-header class="app_header ion-no-border">
+  <ion-toolbar color=#ffcc99>
+    <div class="app_title">
+      <ion-buttons slot="start">
+          <ion-back-button icon="arrow-back" defaultHref="store-list">
+          </ion-back-button>
+          <ion-title class="text_title"><div class="logo">
+            <img src="assets/images/logo.svg" width="150px">
+          </div></ion-title>
+      </ion-buttons>
+  </div>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="tab-content">
+  <ion-tabs>
+
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="store-info">
+        <ion-icon name="information-circle" class="ic"></ion-icon>
+        <ion-label></ion-label>
+      </ion-tab-button>
+
+      <ion-tab-button tab="store-srvc">
+        <ion-icon name="menu" class="ic"></ion-icon>
+      </ion-tab-button>
+
+      <ion-tab-button tab="store-map">
+        <ion-icon name="pin" class="ic"></ion-icon>
+      </ion-tab-button>
+
+    </ion-tab-bar>
+
+  </ion-tabs>
+
+</ion-content>

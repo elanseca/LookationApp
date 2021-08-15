@@ -1,0 +1,88 @@
+.app_header{
+  background-color:#e6ccff;
+}
+
+.app_title{
+  text-align:center;
+  color: black;
+  padding-top: 10px;
+}
+
+.text_title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 10px 1px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+ion-back-button{
+  position: absolute !important;
+  z-index: 5;
+}
+
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+display: none;
+}
+ion-content{
+  margin:0;
+  background-color: #e6ccff;
+
+  --offset-bottom: auto!important;
+ --overflow: hidden;
+ overflow: auto;
+ &::-webkit-scrollbar {
+   display: none;
+
+ }
+}
+
+ion-searchbar{
+  --box-shadow: 1px 5px 5px rgb(153, 153, 153, .5);
+  --ion-background-color: white;
+  --color: grey;
+  --border-radius: 20px;
+}
+a:link{
+  text-decoration: none;
+  color:red;
+
+
+}
+
+a:visited{
+  text-decoration: none;
+  color: red;
+
+
+}
+
+a:active{
+  background-color: lighten(grey, 1%);
+  text-decoration: none;
+  transition: all 50ms linear;
+
+
+}
+.listdesign{
+  background-color: transparent !important;
+  border-radius: 30px;
+  margin: 0px 10px;
+}
+ion-item{
+  box-shadow: 1px 5px 5px rgb(153, 153, 153, .5);
+  background-color: white;
+  --color: black;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-family: Roboto-Regular !important;
+}
+.item-background-color{
+  --color: black;
+  --ion-item-background:transparent;
+
+
+}

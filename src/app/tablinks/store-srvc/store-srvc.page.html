@@ -1,0 +1,65 @@
+
+<ion-content [fullscreen]="true">
+  <br>
+  <h5 class="contact">SNACKS</h5>
+
+  <!--SNACKS-->
+  <ion-grid>
+    <ion-row *ngFor ="let food of snacks">
+      <ion-col>
+        {{food.foodname}}
+      </ion-col>
+      <ion-col class="price">
+        {{food.foodprice}}
+      </ion-col>
+      <hr class="cut">
+    </ion-row>
+    </ion-grid>
+
+    <br>
+
+    <h5 class="contact">BEVERAGES</h5>
+    <!--BEVERAGES-->
+  <ion-grid>
+    <ion-row class="bev">
+      <ion-col class="bevv">
+        16oz
+      </ion-col >
+      <ion-col class="bevv1">
+        22oz
+      </ion-col>
+      <ion-col>
+        1L
+      </ion-col>
+      <ion-col class="bevv">
+        Pop Can
+      </ion-col>
+    </ion-row>
+
+    <ion-row class="bev">
+      <ion-col class="prc">
+        75.00
+      </ion-col>
+      <ion-col class="prc1">
+        85.00
+      </ion-col>
+      <ion-col>
+        95.00
+      </ion-col>
+      <ion-col class="prc">
+        120.00
+      </ion-col>
+    </ion-row>
+    <br>
+
+    <!--BEVERAGES-->
+    <ion-row *ngFor ="let drink of bev">
+      <ion-col>
+        {{drink.drinkname}}
+      </ion-col>
+      <hr class="cut">
+    </ion-row>
+    </ion-grid>
+
+</ion-content>
+
